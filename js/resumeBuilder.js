@@ -35,14 +35,14 @@ This is empty on purpose! Your code to build the resume will go here.
  "prj1":{
    "projectTitle":"A Simple Audio/Video Media Player",
    "projectDate":"Nov 2016 to Dec 2016",
-   "projectDesc":"",
+   "projectDesc":"In This Projects I have Used Scene Builder to Design Minimal Graphics User Interface, JavaFX Media API to Play the Media and Core Java to Some Basic Manipulation.",
    "projectImage":""
  },
  "prj2":
  {
- 	"projectTitle":"A Simple Blog ",
+ 	"projectTitle":"A Simple Blog Manthan ",
     "projectDate":"Aug 2016 to Oct 2016",
-    "projectDesc":" A simple Blog where any one share text/images etc.",
+    "projectDesc":" In This Project I used Google App Engine ,Python ,Javascript,HTML,CSS,Webapp2,Google Data Store to Developd a simple Blog.",
 	"projectImage":""
  },
  "prj3":{
@@ -50,8 +50,19 @@ This is empty on purpose! Your code to build the resume will go here.
     "projectDate":"Nov 2016 to Dec 2016",
     "projectDesc":"",
     "projectImage":""
+ },
+ "prj4":{
+   "projectTitle":"Deep Understanding of A Compiler Optimization Phase",
+   "projectDate":"May 2017 to July 2017",
+   "projectDesc":"After completing Compiler Design Course From College I deep dive into LLVM Compiler Optimization Framework codebase and Wrote some passes which analyses  the given codes and make some Transformation.",
+   "projectImage":""
+ },
+ "prj5":{
+   "projectTitle":"Client-Server Programm",
+   "projectDate":"March 2017 to April 2017",
+   "projectDesc":"This was Course Project For Computer Network Course.I have used unix Socket API to Developed Client and a Server Programm after Running Both Programm in Diffrent Terminal They Can Communcate ,I have used both User Datagram Protocol and Transmission Control Protocol.",
+ "projectImage":""
  }
- 
  };
 var onlineClasses={
 "ocls1":
@@ -97,7 +108,7 @@ function displayEduaction()
 		$('.education-entry:last').append(formattedSchoolName+formattedSchoolDegree);
 		var formattedSchoolDate=HTMLschoolDates.replace('%data%',education[edu].schoolDate);
 		$('.education-entry:last').append(formattedSchoolDate);
-        
+
 		var formattedSachoolLocation=HTMLschoolLocation.replace('%data%',education[edu].schoolLocation);
 		$('.education-entry:last').append(formattedSachoolLocation);
 
